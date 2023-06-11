@@ -31,12 +31,16 @@ Fields that are *italicized* are generated; Fields that are **bolded** are gener
 
 [*1*, *0*, *0*, *0*, *0*, *0*, *0*, *2*, *4*, 7, 11]
 
-2022W JAPN 320 003 (No information given):
+2022W JAPN 360 003 (No information given):
 
 [*0*, *0*, *0*, *1*, *1*, *1*, *2*, *2*, *2*, *2*, *2*]
 
-2022W JAPN 320 003 (Provided that there's only 1 A+ student):
+2022W JAPN 360 003 (Provided that there's only 1 A+ student):
 
 [*0*, *0*, *0*, *1*, *1*, *1*, *2*, *2*, *3*, *2*, 1]
+
+Real 2022W JAPN 360 003 Data for reference (Retrieved via custom search):
+
+[0, 0, 0, 2, 0, 2, 2, 1, 3, 2, 1]
 ## Future potential expansions
 - Use .csv data directly
