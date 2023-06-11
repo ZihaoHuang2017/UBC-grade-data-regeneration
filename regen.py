@@ -4,7 +4,7 @@ import typing
 import copy
 
 """
-Asssume:
+Assume:
 1. Distributions are normal, without skew (Allows for easy calculation of the stdev)
 2. Distribution is capped from [lo, hi] (Allows for more accurate estimate)
 3. All provided data are accurate
@@ -83,8 +83,8 @@ def fill_arr(arr, lo, hi, quantile_25, quantile_75, total_pop):
     assert abs(partial_sum - to_be_filled_pop) < 0.1
     return result
 
-INITIAL_ARR = [0, 0, 0, 0, 0, 0, 0, 6, 8, 0, 7]
-LO, HI = 61, 94
-QUANTILE_25, QUANTILE_75 = 76, 88
-TOTAL_POP = 34
+INITIAL_ARR = [39, 0, 0, 0, 0, 6, 15, 25, 39, 59, 70]
+LO, HI = 6, 98
+QUANTILE_25, QUANTILE_75 = 75, 90
+TOTAL_POP = 263
 print(fill_arr(INITIAL_ARR, LO, HI, QUANTILE_25, QUANTILE_75, TOTAL_POP))
