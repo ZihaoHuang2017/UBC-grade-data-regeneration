@@ -25,7 +25,7 @@ Fields that are *italicized* are generated; Fields that are **bolded** are gener
 
 2022W WRDS 150B 510:
 
-[*1*, *0*, *0*, *1*, *2*, *3*, 10, 6, *5*, 0, 0]
+[*1*, *0*, *0*, *1*, *2*, *3*, 10, 6, *5*, *0*, *0*]
 
 2022W SCIE 113 108:
 
